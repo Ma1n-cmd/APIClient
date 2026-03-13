@@ -1,0 +1,30 @@
+build-backend = "hatchling.build"
+
+[project]
+name = "async-api-client"
+version = "0.1.0"
+description = "Асинхронный HTTP-клиент с повторными попытками и таймаутами"
+readme = "README.md"
+authors = [
+    { name = "Матвей", email = "20matwey03@gmail.com" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Framework :: AsyncIO"
+]
+requires-python = ">=3.8"
+dependencies = [
+    "aiohttp>=3.8.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/Ma1n-cmd/async-api-client"
+Repository = "https://github.com/Ma1n-cmd/async-api-client.git"
+Issues = "https://github.com/Ma1n-cmd/async-api-client/issues"
